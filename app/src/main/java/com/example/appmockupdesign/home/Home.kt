@@ -23,5 +23,9 @@ class Home : AppCompatActivity() {
 
         viewModel.changLogo(this)
         viewModel.openHomePage(this)
+
+        manuBT.setOnClickListener(){
+            viewModel.goToMainManu(this)
+        }
     }
 }
