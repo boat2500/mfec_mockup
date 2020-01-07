@@ -1,11 +1,11 @@
 package com.example.appmockupdesign.home
 
-import android.content.Context
 import android.content.Intent
 import android.os.Handler
 import android.view.View
 import androidx.lifecycle.ViewModel
 import com.example.appmockupdesign.mainManu.MainManu
+import com.example.appmockupdesign.service.Service
 import kotlinx.android.synthetic.main.home.*
 
 class HomeViewModel:ViewModel(){
@@ -26,6 +26,10 @@ class HomeViewModel:ViewModel(){
 
     fun goToMainManu(context: Home){
             context.startActivity(Intent(context, MainManu::class.java))
+    }
+
+    fun goTocontaxt(context: Home){
+        context.startActivity(Intent(context, Service::class.java))
     }
 
     override fun onCleared() {

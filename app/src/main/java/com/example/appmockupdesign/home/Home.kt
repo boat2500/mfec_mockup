@@ -27,5 +27,9 @@ class Home : AppCompatActivity() {
         manuBT.setOnClickListener(){
             viewModel.goToMainManu(this)
         }
+
+        imageView8.setOnClickListener(){
+            viewModel.goTocontaxt(this)
+        }
     }
 }

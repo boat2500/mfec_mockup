@@ -3,4 +3,7 @@
     <color name="colorPrimary">#344392</color>
     <color name="colorPrimaryDark">#344392</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="detail_item">#024EA0</color>
+    <color name="sucessBt">#3023AE</color>
+    <color name="cancel">#272F40</color>
 </resources>

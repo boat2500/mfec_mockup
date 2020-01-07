@@ -24,7 +24,7 @@
             android:paddingEnd="16dp">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/roofAndScrew"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/group335" />
@@ -54,7 +54,7 @@
                 app:srcCompat="@drawable/group338" />
 
             <ImageView
-                android:id="@+id/imageView11"
+                android:id="@+id/warranty"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/group339" />

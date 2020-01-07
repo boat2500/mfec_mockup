@@ -9,7 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".mainManu.MainManu"></activity>
+        <activity
+            android:name=".transport.Transport"
+            android:label="@string/title_activity_transport"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".service.Service" />
+        <activity android:name=".warranty.WarrantyShow" />
+        <activity
+            android:name=".warranty.Warranty"
+            android:label="@string/title_activity_warranty"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".roofscrew.luxleel.Luxleel" />
+        <activity android:name=".roofscrew.Luxleel.Luxleel" />
+        <activity android:name=".roofscrew.bluescope.BlueScope.BlueScope" />
+        <activity android:name=".roofscrew.RoofScrew" />
+        <activity android:name=".mainManu.MainManu" />
         <activity android:name=".home.Home">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

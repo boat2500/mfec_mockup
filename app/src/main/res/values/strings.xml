@@ -1,3 +1,43 @@
 <resources>
     <string name="app_name">App mockup design</string>
+    <string name="roof_screw">หลังคาและสกรู</string>
+    <string name="main_manu">หน้าหลัก</string>
+    <string name="title_activity_warranty">Warranty</string>
+    <string name="Warranty">Warranty</string>
+    <string name="tab_text_1">DONGKUK</string>
+    <string name="tab_text_2">VICTORY Rollerdoor</string>
+    <string name="tab_text_3">Blue Scope</string>
+    <string name="detail_item">รายละเอียดสินค้า</string>
+    <string name="InvoiceNo">Invoice No.</string>
+    <string name="warrantyName">ชื่อ</string>
+    <string name="address">ที่อยู่</string>
+    <string name="warrantyItem">สินค้า</string>
+    <string name="tel">เบอร์</string>
+    <string name="mail">E-mail</string>
+    <string name="warrantyDetail">รายละเอียด</string>
+    <string name="sucessBt">ยืนยัน</string>
+    <string name="cancelBt">ยกเลิก</string>
+    <string name="warrantyPopup">คุณยืนยันที่จะ "บันทึก" ข้อมูล Warranty ใช่หรือไม่?</string>
+    <string name="service_training">บริการออกแบบฟรีจาก V.N.&amp;SKY TRAINING CENTER โดยทีมวิศวกร สถาปนิกและมัณฑนากรผู้ชำนาญ เพียง 4 ขั้นตอนง่ายๆ ในการรับบริการ</string>
+    <string name="image1">ถ่ายภาพบ้านหรือห้องที่ต้องการจะปรับปรุงหรือสแกนภาพถ่าย หรือแบบก่อสร้างให้เป็นไฟล์ .dwg .skp .slddrw .jpg</string>
+    <string name="image2">ส่งไฟล์ภาพบ้านหรือห้องของคุณผ่านอีเมลล์ sales@vnsteel.co.th ระบุความต้องการของคุณ หรือให้สถาปนิกของเรา  ออกแบบให้โดยไม่เสียค่าใช้จ่าย</string>
+    <string name="image3">รอรับไฟล์ที่ทีมวิศวกร สถาปนิกและมัณฑนากรออกแบบเสร็จทางอีเมลล์ หรือรับด้วยตัวเองที่สำนักงานประมาณ 1 สัปดาห์ หลังจากส่งไฟล์ภาพของคุณให้เรา</string>
+    <string name="image4">เมื่อได้ผลิตภัณฑ์ที่ชอบ คุณสามารถสั่งซื้อโดยนำ PRODUCT CODE ติดต่อกับตัวแทนจำหน่ายได้ทุกสาขา และเพื่อความถูกต้อง อย่าลืมตรวจสอบสีจริงกับแคตตาล็อกก่อนสั่งซื้อ</string>
+    <string name="hotline">บริการตอบคำถามและให้คำแนะนำด้านผลิตภัณฑ์และบริการต่างๆ ของบริษัทฯทางโทรศัพท์ โทร 089-338-2222</string>
+    <string name="trainsport">บริการขนส่งสินค้าภายในประเทศ</string>
+    <string name="trainsportDetail">* ดูรายละเอียดค่าบริการได้ที่หน้า Transport</string>
+    <string name="callcenter">แจ้งปัญหาการใช้งาน ติดต่อที่ฝ่ายลูกค้าสัมพันธ์ โทร 02-159-0761-3 กด 1402 </string>
+    <string name="serviewMe">สำนักงานใหญ่ปทุมธานี
+156 หมู่5 ตำบลเชียงรากใหญ่ อำเภอสามโคก จังหวัดปทุมธานี\n
+วันและเวลาทำการ จ.-ส. / 08.00 น.-17.00 น. (กรุณาโทรนัด
+กับวิศวกร สถาปนิกและมัณฑนากรล่วงหน้า) ตัวแทนจำหน่ายที่
+ให้บริการ (กรุณาตรวจสอบสาขา ตัวแทนจำหน่ายที่ให้บริการ
+โทร 02-159-0761-3 กด 1402 ) </string>
+    <string name="title_activity_transport">Transport</string>
+    <string name="carType1">รถกระบะ 4 ล้อ</string>
+    <string name="carType2">รถ 6 ล้อ</string>
+    <string name="carType3">รถเทรลเลอร์</string>
+    <string name="Transport">Transport</string>
+
+
 </resources>
