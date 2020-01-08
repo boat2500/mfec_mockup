@@ -16,7 +16,7 @@ class Warranty : AppCompatActivity() {
         supportActionBar?.setTitle(R.string.Warranty)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         val sectionsPagerAdapter = SectionsPagerAdapter(this, supportFragmentManager)
-        val viewPager: ViewPager = findViewById(R.id.view_pager)
+        val viewPager: ViewPager = findViewById(R.id.view_pager1)
         viewPager.adapter = sectionsPagerAdapter
         val tabs: TabLayout = findViewById(R.id.tabs)
         tabs.setupWithViewPager(viewPager)

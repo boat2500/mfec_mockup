@@ -32,9 +32,12 @@ class MainManu : AppCompatActivity() {
         }
 
         imageView12.setOnClickListener(){
-            viewModel.goToTarnsport(this)
+            viewModel.goToTransport(this)
         }
 
+        imageView13.setOnClickListener(){
+            viewModel.goToService(this)
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

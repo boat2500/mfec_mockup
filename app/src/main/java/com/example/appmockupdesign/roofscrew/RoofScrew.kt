@@ -26,6 +26,7 @@ class RoofScrew : AppCompatActivity() {
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        var manuAction = menuInflater.inflate(R.menu.main_manu, menu)
         return super.onCreateOptionsMenu(menu)
     }
 

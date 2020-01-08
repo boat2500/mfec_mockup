@@ -31,5 +31,8 @@ class Home : AppCompatActivity() {
         imageView8.setOnClickListener(){
             viewModel.goTocontaxt(this)
         }
+         imageView9.setOnClickListener(){
+             viewModel.goTocallMe(this)
+         }
     }
 }

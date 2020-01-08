@@ -9,9 +9,11 @@ import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
 import com.example.appmockupdesign.R
+import com.example.appmockupdesign.roofscrew.bluescope.BlueScope.bluescopeData
 import com.example.appmockupdesign.transport.ui.main.SectionsPagerAdapter
 
 class Transport : AppCompatActivity() {
+    var tracsportData = ArrayList<transportData>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

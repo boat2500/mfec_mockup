@@ -13,6 +13,12 @@
             android:name=".transport.Transport"
             android:label="@string/title_activity_transport"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".callMe.CallMe" />
+        <activity android:name=".contextMe.ContextMe" />
+        <activity
+            android:name=".transportAdapter"
+            android:label="@string/title_activity_transport_adapter"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".service.Service" />
         <activity android:name=".warranty.WarrantyShow" />
         <activity
