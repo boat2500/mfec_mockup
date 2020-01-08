@@ -2,6 +2,7 @@ package com.example.appmockupdesign.mainManu
 
 import android.content.Intent
 import androidx.lifecycle.ViewModel
+import com.example.appmockupdesign.catalogue.Catalogue
 import com.example.appmockupdesign.roofscrew.RoofScrew
 import com.example.appmockupdesign.service.Service
 import com.example.appmockupdesign.transport.Transport
@@ -21,5 +22,8 @@ class MainMainViewModel : ViewModel(){
     }
     fun goToTransport(context: MainManu){
         context.startActivity((Intent(context, Transport::class.java)))
+    }
+    fun goToCatalogue(context: MainManu){
+        context.startActivity((Intent(context, Catalogue::class.java)))
     }
 }

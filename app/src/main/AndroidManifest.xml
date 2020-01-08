@@ -9,10 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".catalogue_adapter"></activity>
+        <activity android:name=".catalogue.Catalogue" />
         <activity
             android:name=".transport.Transport"
             android:label="@string/title_activity_transport"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".callMe.CallMe" />
         <activity android:name=".contextMe.ContextMe" />
         <activity

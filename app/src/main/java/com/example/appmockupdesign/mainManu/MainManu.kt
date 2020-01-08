@@ -38,6 +38,9 @@ class MainManu : AppCompatActivity() {
         imageView13.setOnClickListener(){
             viewModel.goToService(this)
         }
+        imageView10.setOnClickListener(){
+            viewModel.goToCatalogue(this)
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
