@@ -1,6 +1,7 @@
 package com.example.appmockupdesign.transport.ui.main
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -14,10 +15,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.appmockupdesign.R
 import com.example.appmockupdesign.roofscrew.bluescope.BlueScope.bluescopeAdapter
 import com.example.appmockupdesign.roofscrew.bluescope.BlueScope.bluescopeData
-import com.example.appmockupdesign.transport.Transport
-import com.example.appmockupdesign.transport.transportAdapter
-import com.example.appmockupdesign.transport.transportData
-import com.example.appmockupdesign.transport.transportViewModel
+import com.example.appmockupdesign.service.serviewViewModel
+import com.example.appmockupdesign.transport.*
 import kotlinx.android.synthetic.main.activity_blue_scope.*
 import kotlinx.android.synthetic.main.fragment_transport.*
 
@@ -31,7 +30,6 @@ class PlaceholderFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
     }
 
     override fun onCreateView(
@@ -46,7 +44,6 @@ class PlaceholderFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         transportData.clear()
         transportRecycle?.adapter?.notifyDataSetChanged()
-
         transportData.apply {
             add(transportData("   1-50    ", 1300))
             add(transportData("  51-100", 1900))
@@ -70,19 +67,5 @@ class PlaceholderFragment : Fragment() {
                 transportData
             )
         transportRecycle.layoutManager = LinearLayoutManager(context)
-    }
-
-    companion object {
-
-        private const val ARG_SECTION_NUMBER = "section_number"
-
-        @JvmStatic
-        fun newInstance(sectionNumber: Int): PlaceholderFragment {
-            return PlaceholderFragment().apply {
-                arguments = Bundle().apply {
-                    putInt(ARG_SECTION_NUMBER, sectionNumber)
-                }
-            }
-        }
     }
 }
