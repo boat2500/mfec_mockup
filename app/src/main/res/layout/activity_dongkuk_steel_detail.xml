@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".roofscrew.dongkukSteel.DongkukSteelDetail">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="40dp"
+                app:srcCompat="@drawable/maskgroup67" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/DONGKUK_STEEL"
+                    android:textColor="@android:color/background_dark" />
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/ROOF_SCREW"
+                    android:textAlignment="textEnd"
+                    android:textColor="@android:color/background_dark" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/dongtitle"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/dongdetail"
+                android:textColor="@android:color/background_dark" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="16dp"
+                android:background="@color/detailBg"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/dongcustom"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView45"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="ประเภท"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radioButton7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="AZ-70" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="AZ-150" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView48"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="20dp"
+                    android:text="ขนาดของผลิตภัณฑ์"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView50"
+                        android:layout_width="205dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:text="หน้ากว้างแผ่น (มม.)"
+                        android:textColor="@android:color/background_dark" />
+
+                    <TextView
+                        android:id="@+id/textView51"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text=":  914"
+                        android:textColor="@android:color/background_dark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView54"
+                        android:layout_width="205dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:text="ความหนาเหล็กรวม"
+                        android:textColor="@android:color/background_dark" />
+
+                    <TextView
+                        android:id="@+id/textView55"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text=":  0.28,0.30"
+                        android:textColor="@android:color/background_dark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView56"
+                        android:layout_width="205dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:text="ชั้นเคลือบโลหะเคลือบสี (มม.)"
+                        android:textColor="@android:color/background_dark" />
+
+                    <TextView
+                        android:id="@+id/textView57"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text=":  AZ-70"
+                        android:textColor="@android:color/background_dark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="0"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView58"
+                        android:layout_width="205dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:text="เกรดเหล็ก"
+                        android:textColor="@android:color/background_dark" />
+
+                    <TextView
+                        android:id="@+id/textView59"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:text=":  G550"
+                        android:textColor="@android:color/background_dark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginBottom="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView61"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Color"
+                        android:textColor="@android:color/background_dark" />
+
+                    <Spinner
+                        android:id="@+id/spinner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView62"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="0"
+                    android:text="ระยะเวลารับประกัน     10     ปี"
+                    android:textAlignment="viewStart"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView63"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_weight="1"
+                    android:text="จำนวน"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/shape2" />
+
+                <EditText
+                    android:id="@+id/textView64"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:text="1"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/shape1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView66"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:text="คำนวน"
+                    android:textAlignment="center"
+                    android:textColor="@color/ic_launcher_background"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView67"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="10000"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView68"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="บาท"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="0"
+                android:background="@drawable/group485"
+                android:text="เพิ่มในใบเสนอราคา"
+                android:textAlignment="center"
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

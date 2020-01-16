@@ -1,23 +1,13 @@
 package com.example.appmockupdesign.transport.ui.main
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModelProviders
-import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.example.appmockupdesign.R
-import com.example.appmockupdesign.roofscrew.bluescope.BlueScope.bluescopeAdapter
-import com.example.appmockupdesign.roofscrew.bluescope.BlueScope.bluescopeData
-import com.example.appmockupdesign.service.serviewViewModel
 import com.example.appmockupdesign.transport.*
-import kotlinx.android.synthetic.main.activity_blue_scope.*
 import kotlinx.android.synthetic.main.fragment_transport.*
 
 /**

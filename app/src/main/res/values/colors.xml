@@ -6,4 +6,5 @@
     <color name="detail_item">#024EA0</color>
     <color name="sucessBt">#3023AE</color>
     <color name="cancel">#272F40</color>
+    <color name="detailBg">#437E7E7E</color>
 </resources>

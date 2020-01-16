@@ -4,50 +4,51 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".roofscrew.luxleel.Luxleel">
+    tools:context=".roofscrew.luxteel.Luxteel">
 
-    <LinearLayout
-        android:id="@+id/linearLayout"
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginStart="16dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:layout_marginEnd="16dp"
-        android:orientation="vertical"
+        android:text="LUXTEEL"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="LUXTEEL"
-            android:textAlignment="center"
-            android:textColor="@color/colorPrimary"
-            android:textSize="24sp"
-            android:textStyle="bold" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/luxleelRecycleView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:paddingStart="16dp"
+        android:paddingTop="16dp"
+        android:paddingEnd="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:listitem="@layout/bluescope_adapter">
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/luxleelRecycleView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:paddingStart="16dp"
-            android:paddingTop="16dp"
-            android:paddingEnd="16dp"
-            tools:listitem="@layout/bluescope_adapter">
-
-        </androidx.recyclerview.widget.RecyclerView>
-
-    </LinearLayout>
+    </androidx.recyclerview.widget.RecyclerView>
 
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/group444"
+        android:background="@color/detail_item"
+        android:layerType="hardware"
+        android:text="@string/detail_item"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/linearLayout"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

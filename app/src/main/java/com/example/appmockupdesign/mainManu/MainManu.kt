@@ -41,6 +41,15 @@ class MainManu : AppCompatActivity() {
         imageView10.setOnClickListener(){
             viewModel.goToCatalogue(this)
         }
+        imageView4.setOnClickListener(){
+            viewModel.goTogalvanized(this)
+        }
+        imageView5.setOnClickListener(){
+            viewModel.goToVictory(this)
+        }
+        imageView7.setOnClickListener(){
+            viewModel.goToSky(this)
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

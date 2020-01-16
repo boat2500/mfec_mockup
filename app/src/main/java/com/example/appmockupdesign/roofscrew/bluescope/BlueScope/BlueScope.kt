@@ -9,12 +9,14 @@ import androidx.core.app.NotificationCompat.EXTRA_PEOPLE
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.appmockupdesign.R
+import com.example.appmockupdesign.roofscrew.RoofScrewAdapter
+import com.example.appmockupdesign.roofscrew.RoofScrewData
 import kotlinx.android.synthetic.main.activity_blue_scope.*
 
 
 class BlueScope : AppCompatActivity() {
 
-    var blueData = ArrayList<bluescopeData>()
+    var blueData = ArrayList<RoofScrewData>()
     private lateinit var viewModel: bluescopeViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -32,9 +34,8 @@ class BlueScope : AppCompatActivity() {
         viewModel.addBluescope(this, blueData)
 
         blueRecyclerView.adapter =
-            bluescopeAdapter(
-                blueData,
-                this
+            RoofScrewAdapter(
+                blueData
             )
         blueRecyclerView.layoutManager = GridLayoutManager(this, 3)
 
