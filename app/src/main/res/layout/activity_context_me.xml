@@ -6,13 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".contextMe.ContextMe">
 
-    <ScrollView
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginStart="25dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="10dp"
-        android:layout_marginEnd="25dp"
+        android:layout_marginEnd="16dp"
         android:layout_marginBottom="10dp"
+        android:fillViewport="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,5 +50,6 @@
                 android:textColor="@android:color/background_dark"
                 android:textSize="18sp" />
         </LinearLayout>
-    </ScrollView>
+    </androidx.core.widget.NestedScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

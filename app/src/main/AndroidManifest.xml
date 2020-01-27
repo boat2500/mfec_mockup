@@ -2,6 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.appmockupdesign">
 
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -11,7 +17,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".sky.steel_builder.sky2"></activity>
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".callMe.CallME"
+            android:label="@string/title_activity_call_me"></activity>
+        <activity android:name=".sky.steel_builder.sky2" />
         <activity android:name=".sky.sky1" />
         <activity android:name=".victory.vitoryDetail" />
         <activity android:name=".sky.product_profile.Product_profile" />
@@ -46,7 +68,7 @@
             android:label="@string/title_activity_transport"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".callMe.CallMe" />
-        <activity android:name=".contextMe.ContextMe" />
+        <activity android:name=".contextMe.ContextMe"/>
         <activity
             android:name=".transportAdapter"
             android:label="@string/title_activity_transport_adapter"
@@ -58,7 +80,6 @@
             android:label="@string/title_activity_warranty"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".roofscrew.luxleel.Luxleel" />
-        <activity android:name=".roofscrew.Luxleel.Luxleel" />
         <activity android:name=".roofscrew.bluescope.BlueScope.BlueScope" />
         <activity android:name=".roofscrew.RoofScrew" />
         <activity android:name=".mainManu.MainManu" />

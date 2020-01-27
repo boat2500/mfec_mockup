@@ -50,4 +50,5 @@
     <string name="dongcustom">กำหนดรูปแบบสินค้าที่ต้องการ</string>
     <string name="victory_screw">VICTORY SCREW</string>
     <string name="galvanized">เหล็กกัลวาไนซ์</string>
+    <string name="title_activity_call_me">Map</string>
 </resources>

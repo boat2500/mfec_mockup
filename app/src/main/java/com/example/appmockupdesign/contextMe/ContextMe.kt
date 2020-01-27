@@ -12,6 +12,9 @@ class ContextMe : AppCompatActivity() {
         setContentView(R.layout.activity_context_me)
         supportActionBar?.setTitle("เกี่ยวกับเรา")
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setDisplayShowTitleEnabled(false)
+
+
     }
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         var manuAction = menuInflater.inflate(R.menu.main_manu, menu)

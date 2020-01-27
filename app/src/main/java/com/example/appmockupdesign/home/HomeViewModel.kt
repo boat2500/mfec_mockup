@@ -4,10 +4,9 @@ import android.content.Intent
 import android.os.Handler
 import android.view.View
 import androidx.lifecycle.ViewModel
-import com.example.appmockupdesign.callMe.CallMe
+import com.example.appmockupdesign.callMe.CallME
 import com.example.appmockupdesign.contextMe.ContextMe
 import com.example.appmockupdesign.mainManu.MainManu
-import com.example.appmockupdesign.service.Service
 import kotlinx.android.synthetic.main.home.*
 
 class HomeViewModel:ViewModel(){
@@ -34,7 +33,7 @@ class HomeViewModel:ViewModel(){
         context.startActivity(Intent(context, ContextMe::class.java))
     }
     fun goTocallMe(context: Home){
-        context.startActivity(Intent(context, CallMe::class.java))
+        context.startActivity(Intent(context, CallME::class.java))
     }
 
 
